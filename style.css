@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.745);
+}
+header{
+    background-color: black;
+    max-width: 100%;
+}
+.aa{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.aa:hover{
+    border-bottom: 2px solid yellow;
+    color: white;
+     
+}
+
+
+.btnyellow{
+    display: block;
+    margin-left: auto;
+    background-color: yellow;
+    border-radius: 4px;
+    
+}
+.btnblack{
+    display: block;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+}
+
+.flexx{
+    display: flex;
+    margin: auto;
+    
+}
+img{
+    width: 700px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    
+}
+
+.sect2{
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    
+}
+.icon{
+display: flex;
+justify-content: space-around;
+color: #fff;
+text-align: center;
+}
+
+.icon i:hover{
+    cursor: pointer;
+    color: yellow;
+    transition: all 0.2s linear;
+}
+
+
+
+.card {
+
+    background-color: transparent;
+    border: none;
+}
+
+.iconn{
+    top: 0;
+    left: 0;
+}
+
+
+.card-title{
+    font-size: 15px;
+}
+
+
+
+#cont{
+    width: 1270px;
+    margin: auto;
+}
+
+.input{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    height: 30px;
+    padding: 5px;
+}
+
+#imggg{
+    width: 49%;
+}
